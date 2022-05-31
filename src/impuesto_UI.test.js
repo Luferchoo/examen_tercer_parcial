@@ -18,7 +18,7 @@ describe("devolver cambio", () => {
     expect(monto1.value).toEqual("200");
   });
   it("Si ingresa efectivo 200 se guarda efectivo como 200", () => {
-    const monto1 = document.querySelector("#efectivo");
+    const efectivo1 = document.querySelector("#efectivo");
     efectivo1.value = "200";
 /*
     const calcular = document.querySelector("#boton-calcular");
